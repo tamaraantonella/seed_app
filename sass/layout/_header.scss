@@ -1,22 +1,38 @@
 header{
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(204, 204, 204, .3);
     .container{
         div{
             .titulo-semillas{
                 h1{
                     padding: 0;
                     margin: 0;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color:$secondary;
                 }
 
             }
             .avatar-img{
-                width: 70px;
-                height: 70px;
-                cursor: pointer;
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    object-position: center;
+                .avatar-container{
+                    width: 50px;
+                    height: 50px;
+                    position: relative;
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 50%;
+                    }
+                    i{
+                        position: absolute;
+                        left: 0;
+                        top:0;
+                        color:$primary;
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -37,6 +53,15 @@ header{
                             color: $primary;
                             a{
                                 text-decoration: none;
+                                display: block;
+                                padding: 10px 0;
+                                color: $primary;
+                                i{
+                                    display: inline-block;
+                                    width: 18px;
+                                    text-align: center;
+                                    margin-right: 5px;
+                                }
                             }
                         }
                     }
