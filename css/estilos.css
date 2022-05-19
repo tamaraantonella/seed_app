@@ -145,3 +145,26 @@ header {
           font-size: 18px;
           margin: 0;
           color: black; }
+
+.main .container .product-list-container .ver-mas a {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 160px; }
+  .main .container .product-list-container .ver-mas a p {
+    color: white;
+    padding: 0;
+    margin: 0; }
+  .main .container .product-list-container .ver-mas a i {
+    color: white;
+    margin-left: 10px; }
+
+@media screen and (min-width: 768px) {
+  .main .container .product-list-container ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .main .container .product-list-container ul li {
+      width: 25%; } }
